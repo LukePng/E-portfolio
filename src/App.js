@@ -7,6 +7,7 @@ import Achievements from "./components/Achievements";
 import Interests from "./components/Interests/Interests";
 import Quote from "./components/About/Quote";
 import Photography from "./components/Interests/photography";
+import Music from "./components/Interests/music";
 
 function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -28,6 +29,7 @@ function App() {
       <Quote />
       <Interests />
       <Photography />
+      <Music />
       <Achievements />
       <Experiences />
     </div>
